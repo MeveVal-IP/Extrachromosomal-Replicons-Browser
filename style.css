@@ -13,7 +13,7 @@ html {
 /* HERO SECTION */
 .hero {
     position: relative;
-    background-image: url("header_photo.jpg");
+    background-image: url("header_photo_tree.jpg");
     background-size: cover;
     background-position: center;
     height: 500px;
