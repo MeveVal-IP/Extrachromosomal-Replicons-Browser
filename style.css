@@ -13,8 +13,11 @@ html {
 /* HERO SECTION */
 .hero {
     position: relative;
-    background-image: url("header_photo_tree.jpg");
+    background-image: url("header_photo.jpg");
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: down;
+    background-color: white;
     background-position: center bottom;
     height: 500px;
     display: flex;
@@ -101,6 +104,43 @@ html {
     padding: 0 20px;
     font-size: 18px;
 }
+
+.wide-tab {
+    max-width: 2000px;
+    padding: 0 40px;
+}
+
+
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* centre les tables */
+    gap: 30px;
+}
+
+/* 3 tables max par ligne avec taille fixe */
+.table-wrapper {
+    flex: 0 0 calc(33.333% - 20px); /* 3 par ligne, avec espace entre */
+    min-width: 300px;
+    box-sizing: border-box;
+}
+
+/* S'assurer que les tables s'affichent proprement */
+table.dataTable {
+    width: 100% !important;
+    font-size: 90%;
+    border-collapse: collapse;
+}
+
+
+
+
+
+
+
+
 
 
 /* FOOTER */
